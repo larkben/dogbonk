@@ -1,0 +1,15 @@
+// assets/my_tileset.ron
+
+//TODO:
+// work on creating individual tiles for the tileset map so that i can log each tile in this set.
+
+// create a map of the tileset for the dog to walk around in and add collision boundries and speed effects.
+
+(
+  name: Some("Grass TileSet"),
+  id: 0,
+  tiles: {
+    0: "../tiles/my_tile.ron",
+    // ...
+  }
+)
